@@ -6,7 +6,7 @@ import { getPrivateAndPublicUrlsForPortId, ServiceUrl } from "../service_url";
 import { waitForPortAvailability } from "../service_port_availability_checker"
 
 const SERVICE_ID: ServiceID = "indexer-node"
-const IMAGE: string = "kurtosistech/near-indexer-for-explorer:2d66461";
+const IMAGE: string = "postquantumteam/post-quantum-near-indexer-for-explorer:0.10.29-postquantum";
 const RPC_PRIVATE_PORT_NUM: number = 3030;
 const RPC_PUBLIC_PORT_NUM: number = 8332;
 const RPC_PORT_ID = "rpc";
